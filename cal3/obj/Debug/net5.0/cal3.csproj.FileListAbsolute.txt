@@ -1,0 +1,16 @@
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.exe
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.deps.json
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.runtimeconfig.json
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.runtimeconfig.dev.json
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.dll
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\ref\cal3.dll
+C:\Users\matt2\repos\cal3\cal3\bin\Debug\net5.0\cal3.pdb
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.csproj.AssemblyReference.cache
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.AssemblyInfoInputs.cache
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.AssemblyInfo.cs
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.csproj.CoreCompileInputs.cache
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.dll
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\ref\cal3.dll
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.pdb
+C:\Users\matt2\repos\cal3\cal3\obj\Debug\net5.0\cal3.genruntimeconfig.cache
