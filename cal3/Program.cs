@@ -8,35 +8,61 @@ namespace cal3
         {
             Console.WriteLine("Hello World!");
             var num1 = GitNumber();
-            var isAddition = GitOperator();
+            var o = GitOperator();
             var num2 = GitNumber();
-            if (isAddition)
+            switch (o)
             {
-                Console.WriteLine(num1+num2);
-
+                case Operator.Add:
+                    Console.WriteLine(num1 + num2);
+                    break;
+                case Operator.Subtract:
+                    Console.WriteLine(num1 - num2);
+                    break;
+                case Operator.Multiply:
+                    Console.WriteLine(num1 * num2);
+                    break;
+                case Operator.Divide:
+                    Console.WriteLine(num1 / num2);
+                    break;
             }
-            else
-            {
-                Console.WriteLine(num1-num2);
-            }
-
-        }
+        }  
         public static int GitNumber()
         {
             Console.WriteLine("\nenter a number");
             var num1 = Console.ReadLine();
             return int.Parse(num1);
         }
-        public static bool GitOperator() 
-        { 
-        Console.WriteLine("enter - for subtraction + for addtion");
-            var opperater =Console.ReadKey();
-            var o = opperater.KeyChar;
-            if(o == '+')
+        public static Operator GitOperator()
+        {
+            var input = Operator.invalid;
+            while (input == Operator.invalid)
             {
-                return true;
+
+                Console.WriteLine("enter one of the following\n- for subtraction \n+ for addtion\n* for mutiply \n/ for divide");
+                var opperater = Console.ReadKey();
+
+                switch (opperater.KeyChar)
+                {
+                    case '+':
+                        input = Operator.Add;
+                        break;
+                    case '-':
+                        input = Operator.Subtract;
+                        break;
+                    case '*':
+                        input = Operator.Multiply;
+                        break;
+                    case '/':
+                        input = Operator.Divide;
+                        break;
+                    default:
+                        input = Operator.invalid;
+                        break;
+                }
+
             }
-            return false;
-        } 
+
+            return input;
+        }
     }
 }
